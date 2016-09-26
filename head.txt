@@ -1,0 +1,38 @@
+<head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>Restaurant Manager 1.0</title>
+<link href="images/layout.css" type=text/css rel=stylesheet>
+<link href="images/print.css" type="text/css" rel="stylesheet" media="print">
+<script src="scripts/jquery.js"></script>
+<script src="scripts/jquery-ui.js"></script></head>
+<body>
+
+<div id=header class="hideprint"><h1>Restaurant<span class=small>Name</span></h1></div>
+
+<div id=topnav class="hideprint"><a href="revenue.php">Revenue</a> | 
+<a href="orders.php">Orders</a> | 
+<a href="dishes.php">Dishes</a> | 
+<a href="kitchen.php">Kitchen</a></div>
+<div id=left class="hideprint">
+  <div class=menu>
+  <h3>Add New Order</h3>
+  <ul>
+    <li><a href="order.php">For Here Order</a>
+    <li><A href="order.php?type=togo">To go Order</a>
+  </ul>
+  </div>
+  <div class=menu>
+  <h3>Add New Dish</h3>
+  <ul>
+    <li><a href="dish.php">Add New Dish</a>
+  </ul>
+  </div>
+</div>
+
+<div id=right class="hideprint">
+  <div class=rightmenu>
+  <h3>Recent Orders</h3>
+  <ul>
+    <?php include("neworders.php");?>
+  </ul>
+  </div>
+</div>

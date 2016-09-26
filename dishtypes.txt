@@ -1,0 +1,5 @@
+Appetizers
+Entrees
+Sushi Rolls
+Beverages
+Alcohol,0.1

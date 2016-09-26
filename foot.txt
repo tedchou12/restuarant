@@ -1,0 +1,9 @@
+<div id=footer class="hideprint">
+  <a href="index.php">Home</A> | 
+  <a href="help.php">Help</A> | 
+  <a href="contact.php">Contact Me</A> | 
+  <A href="backup.php">Backup &amp; Restore</A>
+  <br />&copy 2009 <b>Designed &amp; Made</b> by <b>Ted Chou</b>
+</div>
+</body>
+</html>

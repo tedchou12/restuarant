@@ -1,0 +1,13 @@
+.hideprint {
+	display: none;
+}
+#content {
+	width: 500px;
+	color: black;
+}
+#printorder {
+	text-align: left;
+	width: 340px;
+	font-family: Arial;
+	font-size: 11px;
+}
